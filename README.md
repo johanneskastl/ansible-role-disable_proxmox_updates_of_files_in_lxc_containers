@@ -3,7 +3,7 @@
 disable_proxmox_updates_of_files_in_lxc_containers
 =========
 
-Disable modification of etc files inside LXC containers, done by Proxmox by default.
+Disable modification of etc files inside LXC containers, done by [Proxmox by default](https://pve.proxmox.com/wiki/Linux_Container#_guest_operating_system_configuration).
 
 Requirements
 ------------
