@@ -1,0 +1,5 @@
+---
+# disable_proxmox_updates_of_files_in_lxc_containers/defaults/main.yml
+
+disable_etc_hosts_modification: true
+disable_etc_hostname_modification: true
