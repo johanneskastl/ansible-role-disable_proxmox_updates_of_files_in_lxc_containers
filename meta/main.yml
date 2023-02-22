@@ -1,0 +1,36 @@
+galaxy_info:
+  role_name: 'disable_proxmox_updates_of_files_in_lxc_containers'
+  namespace: 'johanneskastl'
+  author: 'Johannes Kastl'
+  description: 'Disable modification of etc files inside LXC containers, done by Proxmox by default'
+  company: 'B1 Systems GmbH'
+
+  license: 'BSD-3-Clause'
+
+  min_ansible_version: '2.12'
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+        - 9
+    - name: Debian
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: opensuse
+      versions:
+        - all
+    - name: SLES
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+
+  galaxy_tags: []
+
+dependencies: []
