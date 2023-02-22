@@ -9,6 +9,8 @@
     owner: 'root'
     group: 'root'
     mode: '0644'
+  when:
+    - 'disable_etc_hosts_modification | bool'
 
 - name: 'Create files to disable Proxmox from touch/modifying /etc/hostname inside LXC containers'
   ansible.builtin.copy:
@@ -18,3 +20,5 @@
     owner: 'root'
     group: 'root'
     mode: '0644'
+  when:
+    - 'disable_etc_hostname_modification | bool'
